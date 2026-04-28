@@ -33,7 +33,6 @@ def check():
 
 while True:
     try:
-        send("✅ Channel connection successful")
         check()
         time.sleep(60)
     except Exception as e:
